@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 📄 Log Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação de visualização de logs desenvolvida com React e Ant Design, projetada para carregar e exibir logs de forma clara e estruturada. Ele permite que os usuários filtrem logs com base em palavras-chave, tornando mais fácil analisar grandes volumes de dados.
 
-## Available Scripts
+## ✨ Funcionalidades
 
-In the project directory, you can run:
+* 📂 **Upload de Arquivo**: Permite ao usuário carregar um arquivo de log no formato .txt ou .log.
 
-### `npm start`
+* 👀 **Exibição de Logs**: Exibe cada linha do arquivo de log em um cartão estilizado, incluindo ícones que representam a gravidade do log (Erro, Aviso, Info, Debug).
+* 🔍 **Filtragem de Logs**: Os usuários podem filtrar os logs por palavras-chave, facilitando a análise específica de eventos.
+* 💻 **Interface Responsiva**: Desenvolvido com o layout e componentes do Ant Design para uma interface moderna e responsiva.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* ⚛️ **React**: Biblioteca JavaScript para construção de interfaces de usuário.
 
-### `npm test`
+* 🌐 **Ant Design**: Framework de componentes para React, utilizado para o design e estruturação da UI.
+* 💻 **JavaScript (ES6+)**: Linguagem de programação para adicionar interatividade e manipulação de dados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como Executar o Projeto
 
-### `npm run build`
+### Clone o repositório
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+git clone https://github.com/Guilhermefariah/log-explorer
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+cd log-explorer
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instale as dependências
 
-### `npm run eject`
+```sh
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Execute o projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🌐 Abra o navegador
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Visite http://localhost:3000 para visualizar a aplicação.
 
-## Learn More
+## 📜 Licença
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para obter mais detalhes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
